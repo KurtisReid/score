@@ -40,6 +40,6 @@ public class ScoreRepoTests {
 
         List<Score> scores = this.scoreRepo.findAll();
 
-        Assertions.assertEquals(3, scores.size());
+        Assertions.assertEquals(4, scores.size());
     }
 }
